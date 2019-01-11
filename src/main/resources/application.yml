@@ -1,0 +1,26 @@
+#tomcat端口
+server:
+  port: 8080
+
+#连接参数
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatis
+    username: root
+    password: 6666
+#设置com.springboot.demofirst包的日志级别为debug
+#logging:
+#  level: debug
+#mybatis
+mybatis:
+  type-aliases-package: com.springboot.demofirst.pojo
+
+#logging:
+#  #控制台输出格式
+#  pattern:
+#    console: "%d - %msg%n"
+#  #日志级别
+#  level:
+#      com.springboot.demofirst.service.LoggerTest: debug
+
+
